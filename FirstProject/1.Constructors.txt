@@ -1,0 +1,25 @@
+﻿Constructors - 
+A constructor is a method in the class which is responsible for initializing the vairables of that class
+Constructors may be implicit or expllicit. They may be defined by the compiler during runtime (implicit) or may be defined by the programmer(explicit)
+Implicit construcotrs are parameterless . explicit constructors can be parameterless or with parameters
+
+
+* When we create a new instance of class. It is the constructor method we call . refer to constructor files for more understanding.
+
+Types Of Constructors
+
+1.Default or Parameterless Constructors
+2.Parameterized constructors
+3.Copy constructors
+4.Static constructors
+
+
+1. If a constructor method doesnt take any parameters . Then it is called parameterless constructors. They can be explicit and implicit defined.
+2. If a constructor method is defined with paramerters . Then it is called parameterized constructors.They can only be explicitly defined.
+3. If we want to create multiple instances with the same values then we use the copy constructors.In a copy constructor the constructor takes the same class as a parameter to it.
+4. If a constructor is defined using a static modifier it is called static constructors. All above constructors are non static or instance constructors. 
+	static constructors can be implicitly defined if any static variables are used.
+	These constructors are responsible for initializing static variables . They are never called explicitly. They are only called implicitly.They are first to execute under any class.
+	They cannot be parameterized. Because they run first.
+
+For all the cons 1,2,3 we called them by creating new instances of classes. but the 4 executes without it. refer the related cs file.
