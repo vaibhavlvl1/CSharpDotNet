@@ -23,3 +23,12 @@ Types Of Constructors
 	They cannot be parameterized. Because they run first.
 
 For all the cons 1,2,3 we called them by creating new instances of classes. but the 4 executes without it. refer the related cs file.
+
+Q. Why constructors are needed in a class ?
+A.	Even if constructors are not defined they are implicity defined by compilers
+	Constructors are needed if we want to create the instances of the class
+
+Q. What is the need of defining constructors explicitly again ?
+A.	Implicit constructors will initialize the variables of the class with the same values even if we create multiples of the class.
+	If we define it explcityl we can change the initial value of variables for each instance.by sending the value as a parameter.
+	
