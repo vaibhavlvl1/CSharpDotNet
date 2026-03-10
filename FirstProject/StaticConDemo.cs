@@ -10,7 +10,7 @@ namespace FirstProject
     {
         static StaticConDemo()
         {
-            Console.WriteLine("Static Constructor called");
+            Console.WriteLine("Static Constructor called without creating an instance of class");
         }
 
         public static void Main() { }

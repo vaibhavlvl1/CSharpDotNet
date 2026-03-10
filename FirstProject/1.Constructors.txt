@@ -31,4 +31,16 @@ A.	Even if constructors are not defined they are implicity defined by compilers
 Q. What is the need of defining constructors explicitly again ?
 A.	Implicit constructors will initialize the variables of the class with the same values even if we create multiples of the class.
 	If we define it explcityl we can change the initial value of variables for each instance.by sending the value as a parameter.
+
+
+Static vs Non Static Constructors
+
+If a construcotr is explicitly declared by using static modifier then it is called static constructor. The rest of other constructors are
+non static constructors (instance constructors) 
+Static fields are initialized by a static constructor while non-static fields are initialized by non-static constructors.
+Static constructor executes immediately when the class execution starts. Its the first block of code to get executed. Non static constructor 
+only get executed only after creating the instances.
+In lifecycle of a class a static class gets executed one times while non static class executed n times for n instances
+
+
 	
