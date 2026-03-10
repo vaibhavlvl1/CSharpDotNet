@@ -35,12 +35,18 @@ A.	Implicit constructors will initialize the variables of the class with the sam
 
 Static vs Non Static Constructors
 
-If a construcotr is explicitly declared by using static modifier then it is called static constructor. The rest of other constructors are
-non static constructors (instance constructors) 
-Static fields are initialized by a static constructor while non-static fields are initialized by non-static constructors.
-Static constructor executes immediately when the class execution starts. Its the first block of code to get executed. Non static constructor 
-only get executed only after creating the instances.
-In lifecycle of a class a static class gets executed one times while non static class executed n times for n instances
+1.If a construcotr is explicitly declared by using static modifier then it is called static constructor. The rest of other constructors are
+	non static constructors (instance constructors) 
+2.Static fields are initialized by a static constructor while non-static fields are initialized by non-static constructors.
+3.Static constructor executes immediately when the class execution starts. Its the first block of code to get executed. Non static constructor 
+	only get executed only after creating the instances.
+4.In lifecycle of a class a static class gets executed one times while non static class executed n times for n instances.
+	Refer the related cs file
+5.NS constructors can be parameterized. but Static constructors cannot be parameterized. becauese they are implicitly called. and it is the first
+	block of code that runs under class. so we cant pass any values which come later.
+6.NS constructors can be overloaded but Static cannot be.
+
+** overloading a constructor occurs when multiple instance are created with different values avaiblabe at the time of creation.
 
 
 	
