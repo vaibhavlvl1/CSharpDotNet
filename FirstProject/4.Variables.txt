@@ -1,0 +1,17 @@
+﻿Variable Types
+1. NonStatic
+2. Static
+3. Constants
+4. Readonly
+
+
+1. Non Static - If a variable is explicitly declared by using the static modifier or else if it is declared in any static
+				block then those variables are non static variables. Whereas the rest are static variables
+
+Note - Static members of class dont require instance of class for initialization whereas other members require instance for
+		initialization. Static memners are initialized immediately once the execution of class starts.
+		In life cycle of class static variables are initialized one time only . Non static are initialized everytime
+		instance is created.
+
+3. Constants - If a variable is declared using const We call it a constant variable . They cannot be modified once after their 
+		declaration. So its must be initialized during declaration.

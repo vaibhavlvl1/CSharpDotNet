@@ -1,0 +1,25 @@
+﻿Class - Its a user defined type.
+
+like int . To use Int we do like this int i = 5. we create copy of the type int assign it to variable and use it.
+similarly we use class by creating a copy of it. 
+
+
+
+
+Variable of a Class ---> A copy of the class that is not initialized ex - string s; or Program P; etc
+
+
+
+
+Instance of a Class ---> A copy of the class that is initialized using new keyword  - string s = new string ("vaibhv") or 
+						 P rogram P = new Program(). Separate memory is allocated to each instance and thier variables
+						 Same variable can have different value for different instances. 
+
+
+
+
+
+Reference of a Class -  Here a variable is assigned a existing instance of a class. They can be used like a class but it doesnt
+						get allocated a separate memory. Reference of class has same values as the class they are assigned to. It
+						just refers the values of the referred class. No separeate memory allocation. They will share same memory as the 
+						referenced class.

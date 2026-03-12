@@ -46,7 +46,8 @@ Static vs Non Static Constructors
 	block of code that runs under class. so we cant pass any values which come later.
 6.NS constructors can be overloaded but Static cannot be.
 
-** overloading a constructor occurs when multiple instance are created with different values avaiblabe at the time of creation.
+** overloading a constructor occurs when multiple instance are created with different values of same variables 
+	avaiblabe at the time of creation.
 
 
 	

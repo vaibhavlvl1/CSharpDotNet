@@ -1,0 +1,20 @@
+﻿Modifiers ---> Private , Public , Static, Virtual, Abstract , Override
+
+Every member of a class is default private
+
+We cant use private on types. or we cant make a class private.
+
+Access Specifiers ---> They are special kind of modifiers with which we can define the scope of a type and its members;
+						Ex. If a var is to be used in class or outside etc.
+						ex Internal, Private, Protected, Protected internal, public
+
+
+1. Private - This method is only accessed within the class in which it was defined. It wint be accessed even if other class inherits the
+			original class or child class cant inherit the private method.
+			Class cannot be private.
+
+2. Protected - This method is only accessed in a class and in its child class. Not in instance of the class.
+				classes cannot be protected. These are accesible if instanced from another project. 
+
+3. Internal -- This method can be only used in same project. cant be used in another project. This is default nodifier of classes.
+
