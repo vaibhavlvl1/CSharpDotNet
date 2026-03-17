@@ -5,7 +5,7 @@
 4. Readonly
 
 
-1. Non Static - If a variable is explicitly declared by using the static modifier or else if it is declared in any static
+1. Static - If a variable is explicitly declared by using the static modifier or else if it is declared in any static
 				block then those variables are non static variables. Whereas the rest are static variables
 
 Note - Static members of class dont require instance of class for initialization whereas other members require instance for
@@ -15,3 +15,12 @@ Note - Static members of class dont require instance of class for initialization
 
 3. Constants - If a variable is declared using const We call it a constant variable . They cannot be modified once after their 
 		declaration. So its must be initialized during declaration.
+		Their behaviour is similar to the static variables. Class instance doesnt need to be created to access their values. 
+		They can be accessed directly
+Note - The onlu difference between a static and constant varaiable is that static varaiables can be modofied whereas constant cannot
+
+4.Readonly - Vaibale declared with readonly keyword. They cant be modified after initializatio.( for constants it is after declaration).
+			That means we can declare a readonly and assign its value later on. This is main difference between readonly and constant.
+			REadonly can be initialized in constructor as well
+			Thier behaviour is similar to nonstatic variables. They are initialized once for each instance created
+			Readonly can be only modofioed when assigning it value in constructor
