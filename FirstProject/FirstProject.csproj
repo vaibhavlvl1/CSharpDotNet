@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>FirstProject.VariableInstanceReference</StartupObject>
+    <StartupObject>FirstProject.Inheritance1Child</StartupObject>
   </PropertyGroup>
 
 </Project>

@@ -1,0 +1,10 @@
+﻿Inheritance
+
+1.	Its a mechanism of consuming members of one class by another class by establishing parent/child relationship 
+	between the involved classes.
+2.	A child class can consume all members of its parent class as if it owns the members except the 
+	private members of the class.
+3.  For this to work. The parent aclass constructor must be accessible to child class.
+4.	Parent class can never acess the variables of the child class.
+
+ex check Inhreritance1 as parent aclass and Inheritance1Child as Child Class
