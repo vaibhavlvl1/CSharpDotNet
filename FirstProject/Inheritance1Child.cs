@@ -8,6 +8,17 @@ namespace FirstProject
 {
     internal class Inheritance1Child:Inheritance1
     {
+        // uncommnet this child constructor if parents constructor is parameterized.
+        // This this will pass
+        // parameter to parent class contructor and wont show any error. 
+        // The flow of execution is 
+        // Child Main method --> Child Constructor --> Parent constructor executed
+	// ---> child constrructor executed ---> child main executed.
+
+        //public Inheritance1Child():base(10)
+        //{
+        //    Console.WriteLine("Child COntructor called ");
+        //}
         static void Main()
         {   
 
@@ -17,7 +28,8 @@ namespace FirstProject
 
             ic.Test1(); // Usage
             ic.Test2();
-            ic.Test3();         
+            ic.Test3();
+            ic.Test4();
 
             // Parent class can never call members of child class. Lets test it by creating a 
             // Parent Variable and then init it with child class then using childs method.

@@ -8,3 +8,23 @@
 4.	Parent class can never acess the variables of the child class.
 
 ex check Inhreritance1 as parent aclass and Inheritance1Child as Child Class
+
+5. Every class  inherits object classs by default under System Namespace
+	and have 4 methods inlcuded in it they are - Eqauls, ToString, GetType, GetHashCode
+	
+
+	Type of Inheritance - 1. Single Level 2. Multi Level
+
+6. In C# We dont have support for multiple inheritance through class.Only single iheritance
+	is suppported. That means A Child Can Inherit from single p[arent class only.
+	Only one immediate parent.
+
+Important - 
+
+Suppose class 2 inherits from class 1 The flow is execution is as follows
+1. Class 2 Main method --> Class 2 Constructor --> class 1 constructor executed
+	---> class 2 constrructor executed ---> class 2 main executed.
+2. Suppose class 1 has a parameterized constuctor which takes an int. There will be an 
+	error in the code. Since class 1 constructor wont be called with a value. 
+	To provide parameter to class 1 constructor We use Class 2: base(10). Here base 10
+	refers to class 1 constructor and passes 10 value to c1 constructore and error vanishes
