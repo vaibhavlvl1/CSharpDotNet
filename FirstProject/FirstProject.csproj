@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>FirstProject.MethodOverloading</StartupObject>
+    <StartupObject>FirstProject.PolymorphismChild</StartupObject>
   </PropertyGroup>
 
 </Project>
