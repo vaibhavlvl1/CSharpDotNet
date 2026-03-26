@@ -5,6 +5,9 @@
 
 2.Method Overriding - Its an approach where we reimplement parent class methods in child class with the same signature.
 
+3.Method Hiding  - Its an approach of reimplementing a parent classes method under the child class exactly with the same name
+					and signature.
+
 
 example based on overloading
 
@@ -18,19 +21,27 @@ This is function with same name but its output differs on input. This is polymor
 
 example based on overriding
 
-Overloading vs Overriding 
+Overloading vs Overriding vs Method Hiding
 
 Overloading
 1. In this case we define multiple methods with same name using different params / types / orders etc
 2. This can be performed within class or with parent child class.
 3. When overloading in child class. The child class doesnt need permission from parent class.
+4. It is compile time polymorphism
 
 Overriding 
 1. In this case we define multiple methods with the same name and same params /types/ orders etc
 2. This can be performed in parent child classes only.
 3. When overriding The child class needs permission from parent class. using virtual keyword in parent method
+4. It is run time polymorphism
 
-example based on overloading
+Method Hiding / Shadowing
+1.In this case we define method of parent in child class using same name and signature(params) etc
+2. This can be performaed in child classes only
+3. No permission is needed from parent class. No need of virtual or override keyword.
+4. it is also a runtime polymorphism
+
+example based on overriding
 
 internal class Parent()
 {
@@ -50,12 +61,51 @@ internal class Child() : Parent
 	static void Main()
 	{
 		Child c = new Child();
-		c.Test()
+		c.Test()  ---  This is run time polymorphism . Above method called in runtime.
 	}
 
 }
+
+
+example based on method hiding / Shadowing
 
 if we run above code The Test method in child will be called;
 
 If we dont use any keywords of virtual and override. The Code will work but approach will be of method hiding
 we use new keyword in child class when redeclaring parent method.
+
+
+internal class Parent()
+{
+	public virtual void Test()
+	{
+		Console.WriteLine('Parent Called')
+	}
+}
+
+internal class Child() : Parent
+{
+	public override new void Test()
+		{
+			Console.WriteLine('Parent method modified in Called')
+		}
+
+	static void Main()
+	{
+		Child c = new Child();
+		c.Test()
+	}
+
+}
+
+
+
+Operator Overloading --- > 
+	Operator overloading is an approach of defining multiple behaviours to an operator and those behaviours 
+	will vaary based on operand types between which the operator is used.
+	We use operator keyword to declare a operator method.
+
+	example 
+
+	Number + Number = Addtion of Number
+	String + String  = Concat of String
