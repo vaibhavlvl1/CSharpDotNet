@@ -1,0 +1,33 @@
+﻿Abstract Methods - 
+1. A method without any method body is called as abstract method, It only contains the declaration
+					of methods.
+
+2. If a method is abstract then its class must also have an abstract keyword in it.
+3. When an abstract method is defined . Then its child class must compulsarily define that method.
+4. The concept is similar to method overriding
+
+example -->
+
+abstract class class1
+	{
+		public abstract void show();     // note the absotract keyword
+	}
+
+
+class Class2 : class1 
+	{
+		public override void show()    // note the override keyword  -- Mandatory implementation  
+		{
+			-implementation
+		}
+	}
+	
+
+
+
+Abstract Class --
+1.Abstract class can contain both abstract and non abstract methods
+
+Child Abstract Class -- 
+ Only when all the abstract methods of parent are implemented then we can use non-abstract methods -
+ 
