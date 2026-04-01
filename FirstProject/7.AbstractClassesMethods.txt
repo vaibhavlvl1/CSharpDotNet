@@ -26,8 +26,9 @@ class Class2 : class1
 
 
 Abstract Class --
-1.Abstract class can contain both abstract and non abstract methods
+1.A class which contains abstract methods is called abstract class. 
+2.Abstract class can contain both abstract and non abstract methods
 
 Child Abstract Class -- 
- Only when all the abstract methods of parent are implemented then we can use non-abstract methods -
+ Only when all the abstract methods of parent are implemented then we can use non-abstract methods - 
  
