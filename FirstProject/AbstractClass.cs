@@ -12,8 +12,9 @@ namespace FirstProject
     public abstract class Figure
     {
         public double Width, Height, Radius;
-        public float PI = 3.147f;
+        public double PI = Math.PI;
 
+        // defined abstract method here without method body
         public abstract double GetArea();
     }
 
@@ -26,7 +27,7 @@ namespace FirstProject
         }
 
         public override double GetArea() {
-            return this.Width * this.Height;
+            return Width * this.Height;
         }
     }
 
@@ -38,7 +39,7 @@ namespace FirstProject
         }
 
         public override double GetArea() {
-            return this.Radius * this.Radius * this.PI;
+            return Radius * Radius * PI;
         }
 
     }
@@ -53,7 +54,8 @@ namespace FirstProject
         }
 
         public override double GetArea() {
-            return this.PI * this.Radius * this.Height;
+            double l = Math.Sqrt(Radius * Radius + Height * Height);
+            return PI * Radius * (Radius + l);
         }
     }
 

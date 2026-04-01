@@ -1,0 +1,9 @@
+﻿Interfaces - 
+	1. They only contain abstract methods
+	2. So Evry method of interface must be implemented by its child class
+	3. Generally a class inherits from parent to consume memners of its parents. If a class inherits from a 
+		interface it is to implement the members of the parent. consume vs implement
+	4. A class can inherit from class and interface simultaneously 
+	5. We cannot declare any variables in interfaces. They should have only method.
+	6. We can drop abstract keyword from method in interface. They are abstract by default.
+	7. Interfaces support multiple inheritances . (classes do not). Multiple measns two immediate parent.
