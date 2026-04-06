@@ -1,0 +1,11 @@
+﻿Enum -- 
+ An Enum is a user defined type, so it always better to define it directly under the namespace.
+ But it is also possible to define it under class or structure also
+
+ They come under value type category
+
+ example public enum Days
+
+ {
+	Monday,Tuesday,Wednesday,Thursday,Friday
+ }
