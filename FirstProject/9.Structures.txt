@@ -1,0 +1,21 @@
+﻿1. Structures and Classes share the same method of writng. Both contains namespace and main methods. but keyword 
+used is Struct and Class respectively.
+
+2. Class is reference type whereas struct is a value type
+
+3. Memory allocation for the instance of the class is done in managed heaps while in struct it is in stacks
+
+4. We use class for representing an entity with larger volumes of data whereas struct is used for representing 
+entity with smaller volumes of data.
+
+5. All the predefined data types in the libraries which are of reference types are defined using class
+Whereas those of value type are defined using struct keywords. 
+ex string , object are ref types
+ex int bool are value types. 
+simply got to deffinitions of above data types and see how they are made.
+
+6. In classes we have to use the new keyword to create instance and access its methods. But in struct
+Using new keyword followed by the constructor is optional. Refer the CS file of structures
+
+7. Remember if you dont init struct using new then its variables shoud be separately initialized by selecting its instance and 
+instance.var_name = value.
