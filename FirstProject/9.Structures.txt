@@ -19,3 +19,14 @@ Using new keyword followed by the constructor is optional. Refer the CS file of 
 
 7. Remember if you dont init struct using new then its variables shoud be separately initialized by selecting its instance and 
 instance.var_name = value.
+
+8. Under a class we can define any constructor that is parameterized or parameterless. If no constructor is defined then it will 
+be implicit constructor which will be default. In case of structure parameterless constructor is always default and cant be
+defined again. We can define another parameterized constructor in Structure. If we define parameterless constructor . Build will fail
+
+9. In class if we define n number constructors . After compilation total constructors will be n. There wont be implicit
+If in a class there are 0 constructors after compilation total 1 constructors will be present
+
+But in a struct if n constructors are defined. After compilation total constructors will be n+1. Plus 1 is implicit.
+
+10 Structures dont support inheritance. It cant inhreit from class or structure or No class can inherit them as well.
