@@ -1,0 +1,22 @@
+﻿Properties
+
+1.Suppose in a class a variable is declared . And i want to access the value of that variable in other classes
+There are 3 ways to do that
+a. Making the variable as public
+b. Declaring two public methods which will return and set the values in class. Then use these public methods in other classes.
+c. By using Properties
+
+Drawbacks of 
+a. - Any other class can read and change the variable values
+b. - We would need two separate methods to return and set values
+c. - Best way.
+
+Also if we make variables public. We wont be able to assign or change their values with conditions
+
+So we use Properties. These are methods which are used to get and.or set class vairables withour making them public.
+In these methods we can conditionally assign or remove values.
+
+
+Examples
+
+Check related cs file

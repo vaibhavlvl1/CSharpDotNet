@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>FirstProject.EnumTypes</StartupObject>
+    <StartupObject>FirstProject.Properties2</StartupObject>
   </PropertyGroup>
 
 </Project>
