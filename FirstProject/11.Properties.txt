@@ -20,3 +20,15 @@ In these methods we can conditionally assign or remove values.
 Examples
 
 Check related cs file
+
+
+If for a feature example checking status of a booking . It shouldnt require you to login . it should only require login 
+when you want to set the state. Then you can make a public get and a protectred set.
+
+Auto Initialized vs auto implemented properties
+1. C# 6.0													1. C# 2.0
+2. No need for variable										2. No need for vairable
+3. No need to pass this in constructor or the object.		3. Need to pass this in constructor and object
+Variable created implicitly									Variabkle created implicitly
+4. Assisn value in property itself							4. Assign property while passing in object
+5. Its fixed value in property								5. Can be changed in get and set
