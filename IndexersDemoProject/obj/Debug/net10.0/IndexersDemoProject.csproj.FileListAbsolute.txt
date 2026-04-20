@@ -1,0 +1,15 @@
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\bin\Debug\net10.0\IndexersDemoProject.exe
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\bin\Debug\net10.0\IndexersDemoProject.deps.json
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\bin\Debug\net10.0\IndexersDemoProject.runtimeconfig.json
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\bin\Debug\net10.0\IndexersDemoProject.dll
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\bin\Debug\net10.0\IndexersDemoProject.pdb
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\obj\Debug\net10.0\IndexersDemoProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\obj\Debug\net10.0\IndexersDemoProject.AssemblyInfoInputs.cache
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\obj\Debug\net10.0\IndexersDemoProject.AssemblyInfo.cs
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\obj\Debug\net10.0\IndexersDemoProject.csproj.CoreCompileInputs.cache
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\obj\Debug\net10.0\IndexersDemoProject.sourcelink.json
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\obj\Debug\net10.0\IndexersDemoProject.dll
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\obj\Debug\net10.0\refint\IndexersDemoProject.dll
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\obj\Debug\net10.0\IndexersDemoProject.pdb
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\obj\Debug\net10.0\IndexersDemoProject.genruntimeconfig.cache
+C:\Users\m67fr\source\repos\FirstProject\IndexersDemoProject\obj\Debug\net10.0\ref\IndexersDemoProject.dll

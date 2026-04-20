@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "FirstProject\\FirstProject.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "IndexersDemoProject\\IndexersDemoProject.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

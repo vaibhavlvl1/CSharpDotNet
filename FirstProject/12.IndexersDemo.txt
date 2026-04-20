@@ -1,0 +1,13 @@
+﻿Indexers - 
+
+When in a class you want to access its variables, We use properties. But when we want to 
+access the variables of a class as if it were an array, we use indexers.
+
+The indexers are used to access the variables of a class as if it were an array. 
+The syntax for indexers is similar to that of properties, but instead of using 
+the get and set keywords, we use the "this" keyword.
+
+Refer to the IndexersDemoProject
+
+We can access the varibale of class by class[0], class[1] and so on. 
+We can also assign values to the variables by using the indexers. 
