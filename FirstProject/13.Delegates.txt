@@ -1,0 +1,22 @@
+﻿Delegates - 
+Delegate is a type safe function pointer
+
+A Delegate holds the reference of a method and then calls the method for execution
+
+Normally When we have to call a non static method of a class. We make the instance of the 
+class and then call the method
+And When we have a static method we call it by some variable = classname.methodname();
+
+
+Using delegate to call a method involve 3 steps
+
+1.Define deleagate - We dfine it like a method but use delegate keyword after modifier
+	ex - [<moodifier>] delegate void|type Name ([parameter list])
+
+2. Instantiate in class
+3. Pass a method in it
+
+
+Delegates are usually defined under a namespace but they can also be defined in a class
+latter is not recommended.
+Chekc delegates.cs file
