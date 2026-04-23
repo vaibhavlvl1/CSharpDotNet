@@ -20,3 +20,13 @@ Using delegate to call a method involve 3 steps
 Delegates are usually defined under a namespace but they can also be defined in a class
 latter is not recommended.
 Chekc delegates.cs file
+
+
+
+Multicast delegates -- 
+
+When a delegate holds the reference for multiple methods they are called as multicast delegates.
+
+The methods used in multicast delegtates must have same parameters
+
+refer file multicastDelegatesDemo.cs
