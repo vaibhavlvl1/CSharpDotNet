@@ -1,0 +1,27 @@
+﻿Generic Delegates
+
+There are three types of Generic Delegates
+a - function
+b - action
+c - predicate
+
+LEts take an example -
+
+1. I have three functions	a. one returns a value after calculation ex. double
+							b. One returns void and just prints some console
+							c. one returns a bool after some process
+
+2. If i have to use delegates . I will need to declare 3 separate delegates. then pass those 3 methods in them and call them
+
+3. But I can avoid it using generic delegates
+
+a. - function delegate - used when the method returns a value
+b. - action delegate - used when the method is void or logs in console
+c. - predicate delegate - used when the method returns a boolean value
+
+usage - Func<int,float,double,double> objname = MethodName;
+		objname.invoke(1,2.4,3.4)
+
+		in the <> the first three are parameters followed by return type
+
+see releted cs file for example
