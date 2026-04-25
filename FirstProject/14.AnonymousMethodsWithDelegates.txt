@@ -1,0 +1,19 @@
+﻿A Delegate holds the reference of a method which can be called out for execution
+
+Anonymous method is a method withot a name. We can create and use this method with help of delegate
+They were introduced in c#2.0
+
+Refer Relevant cs file.
+
+When to use anonymous methods
+
+1. You tell me
+
+
+Advantages -
+1. Saves the typing work. We dont need to declare method previously or mention its return type or modifiers etc when invoking
+
+cons - 
+1. Still need to write Delegate keyword and type of parameters.
+
+These cons were addressed in Lambda expressions which came in C#3.0

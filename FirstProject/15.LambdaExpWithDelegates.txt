@@ -1,0 +1,5 @@
+﻿Lambda Expressions are the shorhands of writing anonymous methods.
+refer anonymous methods first then this
+
+Advantages - 
+1. No need to write parameter types or the delegate keyword from anonymous methods
