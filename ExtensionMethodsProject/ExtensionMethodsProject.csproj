@@ -5,11 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>FirstProject.GenericDelegates</StartupObject>
+    <StartupObject>ExtensionMethodsProject.ProgramInstance</StartupObject>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Include="17.ExtensionMethods.txt" />
-  </ItemGroup>
 
 </Project>

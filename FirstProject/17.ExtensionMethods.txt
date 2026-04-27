@@ -1,0 +1,37 @@
+﻿Extension Methods-
+
+Introduced in c# 3.0
+
+Definition - Its a mechanismm of adding new methods in to an existing class or structure without modifying
+original type and in this process we dont need the permissions of original type and original type
+doesnt need any recompilation.
+
+
+If there is class  where some methods are declared. And we want to add new methods to this class
+If modification of this class is not allowed to developers or the source code is not available. Then we 
+use Extension methods to add new methods to that class
+
+
+We could also use child of the class then add new methods there. But it wont ne possible if the class
+is SEALED. so inheritance is not possible here.
+
+Also if the original type is not a class its a structure then inheritance is not possible.
+
+Refer the new project Called ExtensionProject
+
+
+// Note - 
+
+extension methods must be declared in static class and the methods themselves should be static.
+
+But when they are bound to a class or a structure they become non static again so they are called usiing instance
+
+If an extension method has same name and signature as a method in original class/struc . If we call if
+then the methods in original type is called. extension method is ignored.
+
+The first parameter of the extension methods must be the name of the type to which the method is to be bound
+with. this parameter is not taken in to consideration while calling the extension method. and the extension
+method should have 1 and only 1 binding paramter and its should be in the first place.
+
+if an extension method is declared with n parameters. then while calling we use n-1 parameters we ignore the first 
+binding parameter

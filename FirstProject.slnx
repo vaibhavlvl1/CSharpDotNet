@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/Solution Items/" />
+  <Project Path="ExtensionMethodsProject/ExtensionMethodsProject.csproj" Id="9db18b08-02ff-4803-a062-37681808f34a" />
   <Project Path="FirstProject/FirstProject.csproj" />
   <Project Path="IndexersDemoProject/IndexersDemoProject.csproj" Id="f038435f-d8ce-4363-a113-b99a17f19623" />
 </Solution>
