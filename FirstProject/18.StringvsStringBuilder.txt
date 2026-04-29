@@ -1,0 +1,25 @@
+﻿	String Vs Stringbuilder
+
+	Strings are immutable. 
+	They are present in System namespace
+	
+	example
+
+	string str = "Hello"    -- str created with a memmory in heap
+	str = str + "World"     -- another str created with new memmory in heap . prevoius str is preserved
+	str = str + "Coding"    -- another str created again with new memory . previous two str are preserved
+
+
+	The above lines are similar to 
+	string str = "Hello"
+	str1 = str + "Wordl"
+	str2 = str1 + "Coding"
+
+
+	To avoid above issue String builders are used
+
+	String BUilders are mutable they are in System.Text namespace.
+
+	If we use above example using a stringbuilder then instead of 3 copies only one copy will be created and updated
+
+	String builders are faster than the string
