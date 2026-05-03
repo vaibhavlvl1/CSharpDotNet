@@ -1,0 +1,65 @@
+﻿Exceptions -	
+	Errors
+
+	Types - 
+		1.Compile Time Errors -
+			An error that occurs in your program due to syntactical mistakes. These are called Compile Time Errors
+			Not dangerous
+		2.Runtime Errors - 
+			The errors that occur in picture while execution of program is going on.
+			Generally caused by wrong implementation of logic, wrong inputs supplied, missing required resources
+
+			ex. An array has 5 values and for loop is wrtten to execute 6 times. This will throw an exception
+
+
+	Some Common Exceptions classes. Yes they are classes and there are many beyond these 4 - 
+
+	1.Index out of Bounds - as the name suggests
+	2.Divide by zero exveption - as the name suggests
+	3.Overflow exception - -2^31 to 2^32 is int range. if the value of an int is beyond this then it will throw this error
+	4.Format Exception -  Invalid type conversion ex string to float etc..
+
+
+	
+	Exception as class - 
+		1.It has logic for abnormal termination
+		2. It has property to display an error message which is declared as virtual. That means
+			we can override it in child exception class.
+
+
+	Type of exception classes or child classes of exception class
+
+	1.Application Exception - Non fatal error - ex . 
+	not a universal rules
+	programmer errors -
+	ex	
+		 
+	2.System Exception - 
+	fatal errors - 
+	universal rules
+	clr errors
+	system wont allow to perform some actions ex 1.dividing a num by zero
+												2. Inde out of bounds etc
+												3. Format exception etc
+
+
+
+Exception Handling - A method wihch can stop abnormal termination of the program when any exception occurs
+
+Advantages of Exception Handling - 
+1. We can stop abrupt termination of program
+2. We can display user friendly error messages 
+3. We can perfomr corrective measures for failing actions.
+
+
+
+Now what are application exceptions and more --
+
+	If a developer wants to add his custom rules to this app. Like he doesnt want to allow division
+	by a odd number he can do it via application exception class
+
+	ApplicationException ex = new ApplicationException("<Error Msg>");
+	throw ex. 
+	or throw new ApplicationException("<Error Msg>")
+
+	Refer CustomApplicationExceptionThrow.cs
