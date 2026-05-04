@@ -1,0 +1,41 @@
+﻿Thread - 
+	A thread is the smallest unit of execution within a process that can execute code independently.
+	Each thread has its own stack, program counter, and register set, but shares the same heap memory
+	with other threads in the process.
+
+Every Application by default contains one thread to execute the program. This thread is called the Main Thread.
+The Main Thread is created by the CLR (Common Language Runtime) when the application starts.
+
+In single-threaded applications, execution is sequential - one operation must complete before the next begins.
+This can lead to poor performance and unresponsive user interfaces, especially for long-running operations.
+
+
+MultiThreading - 
+
+	Multithreading is the ability of a processor to execute multiple threads concurrently within a single process.
+	Multiple threads can work on different tasks simultaneously, improving application performance and responsiveness.
+
+Key Advantages:
+	- Better CPU utilization: While one thread waits for I/O, another thread can continue executing
+	- Improved responsiveness: Long-running operations don't block the user interface
+	- Concurrent task execution: Multiple independent operations can run at the same time
+	- Efficient resource sharing: Threads within a process share the same memory space
+
+Important Considerations:
+	- Thread Safety: Access to shared resources must be synchronized to avoid race conditions
+	- Deadlock Risk: Improper synchronization can cause threads to wait indefinitely for each other
+	- Context Switching: The OS scheduler manages which thread runs at any given time
+	- Not true parallelism on single-core: Multiple threads appear to run simultaneously but actually
+	  time-slice on a single core (true parallelism requires multiple processor cores)
+
+
+
+We can manaully create threads and assign them tasks for smoother app flow.
+
+The smooth flow is governed by os by using a time sharing method. Time sharing is decided by the operating sytem.
+
+so if we create three threads then os will give some time to each thread to perform its task. ex if it gives 2ms to thread 1 then after that it
+will give 2ms to thread 2 and then to thread 3. This will be repeated till their tasks are complete
+
+
+refer file ThreadTest.cs for practical example
