@@ -39,3 +39,39 @@ will give 2ms to thread 2 and then to thread 3. This will be repeated till their
 
 
 refer file ThreadTest.cs for practical example
+
+
+// Thread Joins
+
+When we create 2 threads the expected run is as follows
+
+1.Main Thread start
+2.any thread start and end
+3.Main Thread Ends
+
+but this doesnt happen.
+
+Main thread starts and end before other threads. To prevent that we use joins. We join the inner threads.
+When we use .join() then CLR waits for these inner threads to get complete then main thread ends
+
+refer - threadTest2.cs
+
+
+// Thread Locking
+
+Thread locking is a way in which we lock the code in a method to particaluar thread. So that no other thread
+has its access until the processing thread is exited.
+
+Why this is needed ?
+
+Suppose we have a display method Which logs Your name is ----- and the name is fetched from api
+
+if two threads are accessing this method then another thread will start its work before the name is fetched
+for the first thread then then output will be jumbled 
+
+ex output - Your name is Your name is Vaibhav Vaibhav.
+
+Thread locking ensures that Second thread gets acces to method when first thread has finished so that output
+will be consistent.
+
+Refer file ThreadLocking.cs
