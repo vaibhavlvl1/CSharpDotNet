@@ -75,3 +75,14 @@ Thread locking ensures that Second thread gets acces to method when first thread
 will be consistent.
 
 Refer file ThreadLocking.cs
+
+
+// Thread Priority
+
+ThreadPriority.<priority>
+
+They are lowest, below normal, normal, above normal,highest.
+
+We can set the priorities if some threads do more work to do compared to other threads
+
+Refer ThreadPriority.cs
