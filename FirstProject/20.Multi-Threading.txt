@@ -86,3 +86,5 @@ They are lowest, below normal, normal, above normal,highest.
 We can set the priorities if some threads do more work to do compared to other threads
 
 Refer ThreadPriority.cs
+
+MultiThreading improves performance of app. Refer ThreadPerformance.cs
