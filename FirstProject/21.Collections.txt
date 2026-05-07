@@ -1,0 +1,48 @@
+﻿Collection - 
+	A collection is a dynamic array. Increases or decreases array size according to elements present
+In collection we can	1. Increse its length 
+						2. Insetrt values in the middle
+						3. delete values from middle
+
+
+
+
+A Normal array has fixed length. It cannot be changed.
+ex int[] arr = new int[10]  - This creates an array with length 10 with 10 elements set to 0
+
+[0,0,0,0,0,0,0,0,0]
+
+The only way to increase its length is to do Array.Resize(ref arr, 15); Then it becomes 15 length
+Internally it creates new array copies all the members form old array and then  destroys the old array
+
+
+Array vs Collections
+
+Array									Collections
+1.fixed capacity						1.Variable capacity
+2.We cannot insert in middle			2.We can insert element in middle
+3.We cannot delete item					3.We can delete items from collection
+
+
+
+Non - Generic Collections -
+	They Store data as objects	
+	
+system.Colections - Stack Queue LinkedList SortedList ArrayList Hashtable etc
+
+
+
+
+
+
+
+
+
+	Difference
+Feature					Generic						Non-Generic
+
+Type Safe				Yes								No
+Performance				Faster							Slower
+Casting Needed			No								Yes
+Namespace				System.Collections.Generic		System.Collections
+Introduced				.NET 2.0						Older .NET
