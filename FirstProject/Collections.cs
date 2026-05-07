@@ -23,6 +23,7 @@ namespace FirstProject
             al.Add("I am");
             al.Add("Vaibhav");
             al.Add(3.44);
+            al.Add(45);
 
             // insert elements in middle of arraylist. inserts element before index mentioned.
             al.Insert(4, "Sutar");
