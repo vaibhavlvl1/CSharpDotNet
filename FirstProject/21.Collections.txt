@@ -5,7 +5,27 @@ In collection we can	1. Increse its length
 						3. delete values from middle
 
 
+Types of Collections - Generic and Non Generic
 
+Generic - They are type safe. and auto resizing. Means only one type of data can be stored
+
+
+Non - Generic Collections -
+	They Store data as objects. So any type of data can be stored. So they are not type safe		
+	system.Colections - Stack Queue LinkedList SortedList ArrayList Hashtable etc
+
+
+
+Non Generic Collections
+
+#### Arrays  - replaced by type safe option List
+
+Array vs Collections
+
+Array									Collections
+1.fixed capacity						1.Variable capacity
+2.We cannot insert in middle			2.We can insert element in middle
+3.We cannot delete item					3.We can delete items from collection
 
 A Normal array has fixed length. It cannot be changed.
 ex int[] arr = new int[10]  - This creates an array with length 10 with 10 elements set to 0
@@ -16,23 +36,26 @@ The only way to increase its length is to do Array.Resize(ref arr, 15); Then it 
 Internally it creates new array copies all the members form old array and then  destroys the old array
 
 
-Array vs Collections
 
-Array									Collections
-1.fixed capacity						1.Variable capacity
-2.We cannot insert in middle			2.We can insert element in middle
-3.We cannot delete item					3.We can delete items from collection
+#### Hashtable  -- replaced by typeSafe option Dictionary
+	They store data in combination of key and value pairs
+	Can Autoresize.
+	When we print hastable using foreach loop. The order seems jumbled. This is beacuse the hashtable
+	internally gets hashcode of keys and then stores it. 
+	Hashcode is the numeric representation of a value. Every variable in C# has a hash. We can get by var.GetHashCode()
 
-
-
-Non - Generic Collections -
-	They Store data as objects	
-	
-system.Colections - Stack Queue LinkedList SortedList ArrayList Hashtable etc
+	Every item in hashtable has key value and hashcode. a hashcode is a int
 
 
 
+Generic Collections
 
+#### List 
+ Usage - List<T> - The T stands for the type of data to be stored ex - List<int> or List<string>
+
+
+#### Dictionary
+Usage - Dictionary<Tkey,TValue> -- Gets values in sequence unlike hashtables
 
 
 
@@ -46,3 +69,20 @@ Performance				Faster							Slower
 Casting Needed			No								Yes
 Namespace				System.Collections.Generic		System.Collections
 Introduced				.NET 2.0						Older .NET
+
+
+
+IComparable and IComparer
+
+IComparable
+Suppose we have a list of a class instances. And we want to compare the fields of the instances. Then we use Icomparable
+
+We inherit from IComparable the class whose instance is created. Then add a CompareToMethod in it and speciofy the details 
+
+refer collection2IComparable
+
+IComparer
+Suppose we have a list of a class instances whose source we donot have or not allowed to modify. Then we use Icomparable
+We make a new class inherit from IComparer and make a new comparer method in it 
+
+Refer Collections3IComparer
